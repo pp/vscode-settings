@@ -13,6 +13,7 @@ junstyle.php-cs-fixer
 MehediDracula.php-namespace-resolver
 mhutchie.git-graph
 mikestead.dotenv
+octref.vetur
 onecentlin.laravel-blade
 onecentlin.laravel5-snippets
 richie5um2.vscode-sort-json
