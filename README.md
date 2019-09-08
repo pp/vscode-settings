@@ -1,5 +1,7 @@
 # vscode-settings
 
+To sync settings:
+
 Copy `settings.json`:
 ```bash
 cp ~/.config/Code/User/settings.json .
