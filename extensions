@@ -3,8 +3,11 @@ austenc.laravel-blade-spacer
 austenc.laravel-docs
 codingyu.laravel-goto-view
 esbenp.prettier-vscode
+felixfbecker.php-debug
 felixfbecker.php-intellisense
+felixfbecker.php-pack
 formulahendry.auto-close-tag
+formulahendry.auto-complete-tag
 formulahendry.auto-rename-tag
 geeebe.duplicate
 HookyQR.beautify
@@ -23,3 +26,4 @@ streetsidesoftware.code-spell-checker
 thekalinga.bootstrap4-vscode
 Tyriar.sort-lines
 waderyan.gitblame
+Zignd.html-css-class-completion
