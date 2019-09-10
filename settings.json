@@ -1,15 +1,30 @@
 {
   "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false,
+    "editor.tabSize": 2
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false,
+    "editor.tabSize": 2
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4
   },
   "[php]": {
-    "editor.defaultFormatter": "junstyle.php-cs-fixer"
+    "editor.defaultFormatter": "junstyle.php-cs-fixer",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4
   },
   "auto-close-tag.SublimeText3Mode": false,
   "auto-close-tag.enableAutoCloseTag": true,
-  "beautify.language": {
-    "html": ["blade", "html"]
-  },
   "blade.format.enable": false,
   "cSpell.enabledLanguageIds": [
     "asciidoc",
@@ -47,9 +62,9 @@
     "yml"
   ],
   "cSpell.userWords": [],
-  "editor.detectIndentation": true,
-  "editor.formatOnPaste": true,
-  "editor.formatOnSave": true,
+  "editor.detectIndentation": false,
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": false,
   "editor.formatOnSaveTimeout": 5000,
   "editor.insertSpaces": true,
   "editor.tabSize": 4,
@@ -62,6 +77,9 @@
   "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
   "php-cs-fixer.formatHtml": false,
   "php-cs-fixer.lastDownload": 1567856842847,
+  "php.validate.enable": true,
+  "php.validate.executablePath": "/usr/bin/php",
+  "php.validate.run": "onSave",
   "window.zoomLevel": 0,
   "workbench.editor.highlightModifiedTabs": true
 }

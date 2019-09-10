@@ -10,8 +10,6 @@ formulahendry.auto-close-tag
 formulahendry.auto-complete-tag
 formulahendry.auto-rename-tag
 geeebe.duplicate
-HookyQR.beautify
-ikappas.phpcs
 junstyle.php-cs-fixer
 MehediDracula.php-namespace-resolver
 mhutchie.git-graph
