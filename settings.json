@@ -48,6 +48,8 @@
     ],
     "cSpell.userWords": [],
     "editor.detectIndentation": true,
+    "editor.fontFamily": "'Dank Mono'",
+    "editor.fontSize": 16,
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
     "editor.formatOnSaveTimeout": 5000,
@@ -63,5 +65,6 @@
     "php-cs-fixer.formatHtml": false,
     "php-cs-fixer.lastDownload": 1571349439531,
     "window.zoomLevel": 0,
+    "workbench.colorTheme": "Dark++ Italic",
     "workbench.editor.highlightModifiedTabs": true
 }
