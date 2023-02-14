@@ -1,7 +1,13 @@
 // Place your key bindings in this file to override the defaults
 [
   {
-    "key": "Shift+6",
-    "command": "sortLines.sortLinesCaseInsensitive"
+    "key": "f9",
+    "command": "sortLines.sortLines",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+cmd+=", // option + command + *
+    "command": "workbench.action.tasks.runTask",
+    "args": "Run pint"
   }
 ]

@@ -1,75 +1,49 @@
 {
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.tabSize": 2
-  },
-  "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features",
-    "editor.tabSize": 2
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features",
-    "editor.tabSize": 2
-  },
   "[php]": {
-    "editor.defaultFormatter": "junstyle.php-cs-fixer",
-    "editor.tabSize": 4
+      "editor.tabSize": 4
   },
-  "auto-close-tag.SublimeText3Mode": false,
-  "auto-close-tag.enableAutoCloseTag": true,
-  "blade.format.enable": false,
-  "cSpell.enabledLanguageIds": [
-    "asciidoc",
-    "blade",
-    "c",
-    "cpp",
-    "csharp",
-    "css",
-    "git-commit",
-    "go",
-    "handlebars",
-    "haskell",
-    "html",
-    "jade",
-    "java",
-    "javascript",
-    "javascriptreact",
-    "json",
-    "jsonc",
-    "latex",
-    "less",
-    "markdown",
-    "php",
-    "plaintext",
-    "pug",
-    "python",
-    "restructuredtext",
-    "rust",
-    "scala",
-    "scss",
-    "text",
-    "typescript",
-    "typescriptreact",
-    "yaml",
-    "yml"
+  "cSpell.ignorePaths" : [
+      "composer.json"
   ],
-  "cSpell.userWords": [],
-  "editor.detectIndentation": true,
-  "editor.fontFamily": "Menlo",
-  "editor.fontSize": 14,
-  "editor.formatOnPaste": true,
-  "editor.formatOnSave": true,
-  "editor.formatOnSaveTimeout": 5000,
+  "cSpell.userWords": [
+      "example"
+  ],
+  "better-phpunit.commandSuffix": "--configuration ~/code/admin-api/phpunit.xml",
+  "better-phpunit.ssh.enable": true,
+  "better-phpunit.ssh.host": "127.0.0.1",
+  "better-phpunit.ssh.options": "-o Port=2222 -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -o PasswordAuthentication=no -o IdentityFile=/Users/patrick/Homestead/.vagrant/machines/homestead/virtualbox/private_key -o IdentitiesOnly=yes -o LogLevel=FATAL -o ForwardAgent=yes",
+  "better-phpunit.ssh.paths": {
+    "~/Documents/work": "~/code"
+  },
+  "better-phpunit.ssh.user": "vagrant",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.fontFamily": "SFMono-Regular",
+  "editor.fontSize": 15,
   "editor.insertSpaces": true,
+  "editor.rulers": [80, 120],
+  "editor.suggestSelection": "first",
+  "extensions.ignoreRecommendations": true,
   "files.autoSave": "afterDelay",
   "git.autofetch": true,
+  "git.suggestSmartCommit": false,
   "html.autoClosingTags": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
   "keyboard.dispatch": "keyCode",
-  "php-cs-fixer.autoFixBySemicolon": true,
-  "php-cs-fixer.config": ".php_cs",
-  "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
-  "php-cs-fixer.formatHtml": false,
-  "php-cs-fixer.lastDownload": 1571349439531,
-  "window.zoomLevel": 0,
-  "workbench.editor.highlightModifiedTabs": true
+  "terminal.integrated.fontFamily": "SFMono-Regular",
+  "terminal.integrated.fontSize": 15,
+  "triggerTaskOnSave.delay": 15000,
+  "triggerTaskOnSave.failureColour": "#ff0000",
+  "triggerTaskOnSave.on": true,
+  "triggerTaskOnSave.resultIndicator": "statusBar.background",
+  "triggerTaskOnSave.showNotifications": false,
+  "triggerTaskOnSave.showStatusBarToggle": false,
+  "triggerTaskOnSave.successColour": "#005e3d",
+  "triggerTaskOnSave.tasks": {
+    "Run pint": ["*.php"]
+  },
+  "workbench.colorCustomizations": {
+    "tab.activeBorder": "#95B9C7"
+  },
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.iconTheme": "vscode-icons"
 }
