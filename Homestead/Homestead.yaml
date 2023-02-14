@@ -1,0 +1,28 @@
+---
+ip: "192.168.56.56"
+memory: 6144
+cpus: 4
+provider: virtualbox
+ 
+authorize: ~/.ssh/id_rsa.pub
+ 
+keys:
+    - ~/.ssh/id_rsa
+ 
+folders:
+    - map: ~/Documents/work
+      to: /home/vagrant/code
+ 
+sites:
+    - map: admin-api.test
+      to: /home/vagrant/code/admin-api/public
+ 
+features:
+    - mysql: true
+    - postgresql: true
+    - ohmyzsh: false
+ 
+services:
+    - enabled:
+          - "mysql"
+          - "postgresql@15-main"
